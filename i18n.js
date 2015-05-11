@@ -9,7 +9,7 @@
  */
 
 // dependencies
-var vsprintf = require("cloud/i18n-parse/sprintf.js").vsprintf,
+var vsprintf = require("cloud/modules/i18n/sprintf.js").vsprintf,
 	path = require("path");
 
 var i18n = module.exports = function(opt) {
